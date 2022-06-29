@@ -1,0 +1,14 @@
+IndexIgnore *
+
+ReWriteEngine On
+
+ReWriteRule ^userlogin login.php [NC,L]
+ReWriteRule ^aboutus about.php [NC,L]
+ReWriteRule ^services services.php [NC,L]
+ReWriteRule ^join join.php [NC,L]
+ReWriteRule ^contactus contact.php [NC,L]
+ReWriteRule ^home index.php [NC,L]
+ReWriteRule ^myorders myorders.php [NC,L]
+ReWriteRule ^service-details service-details.php [NC,L]
+ReWriteRule ^checkout checkout.php [NC,L]
+ReWriteRule ^userpay pay.php [NC,L]
